@@ -1,6 +1,7 @@
-#include "../Morningstar.h"
+#include "../LeetCode.h"
+using namespace lc;
 
-auto getMaximumGenerated(int n) -> int
+auto Solution::getMaximumGenerated(int n) -> int
 {
     std::vector<int> nums;
     int max = (n - 1) / 2;

@@ -1,11 +1,7 @@
-#include "../Morningstar.h"
+#include "../LeetCode.h"
+using namespace lc;
 
-class Solution {
-public:
-    int fib(int n);
-};
-
-int Solution::fib(int n)
+auto Solution::fib(int n) -> int
 {
     if(n < 1) return n;
     std::vector<int> acci;
